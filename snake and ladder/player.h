@@ -4,12 +4,13 @@
 #include <string>
 using namespace std;
 
-class Player{
-    private:
+class Player
+{
+private:
     string name;
     int position;
 
-    public:
+public:
     Player(string name);
 
     // getter and setter funtions
@@ -17,8 +18,6 @@ class Player{
     string getName();
     int getPosition();
     void setPosition(int newPosition);
-
-
 };
 
 #endif
